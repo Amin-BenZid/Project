@@ -1,0 +1,120 @@
+.profile-name {
+  display: flex;
+  height: 50px;
+  width: 450px;
+  background-color: rgba(128, 128, 128, 0.247);
+  border-radius: 10px 10px 0 0;
+}
+.profile-name h5 {
+  margin-top: 19px;
+  margin-left: 10px;
+}
+/*  */
+.post-sec {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  width: 450px;
+  background-color: rgba(204, 204, 204, 0.555);
+}
+.post-like-comment {
+  height: 50px;
+  width: 450px;
+  background-color: rgba(204, 204, 204, 0.349);
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 4px 4px rgba(128, 128, 128, 0.192);
+}
+.post-like {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.post-comment {
+  margin-top: 10px;
+  margin-left: 230px;
+}
+.post-like button {
+  border: none;
+  outline: none;
+  background-color: rgba(204, 204, 204, 0);
+}
+.post-comment button {
+  border: none;
+  outline: none;
+  background-color: rgba(204, 204, 204, 0);
+}
+.postInput {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 400px;
+  border: none;
+  outline: none;
+  box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.192);
+  border-radius: 10px 0 0 10px;
+  background-color: rgba(204, 204, 204, 0.349);
+}
+.forum button {
+  margin-top: 20px;
+  height: 100px;
+  width: 50px;
+  background-color: rgba(128, 128, 128, 0.247);
+  border: none;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.192);
+}
+.forum {
+  display: flex;
+  margin-left: 270px;
+}
+.post {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.line {
+  height: 1px;
+  width: 450px;
+  background-color: black;
+}
+.p {
+  height: max-content;
+  font-size: 20px;
+  inline-size: 370px;
+  overflow-wrap: break-word;
+}
+.del-btn {
+  font-size: 10px;
+  margin-left: 15px;
+}
+.comment-sec {
+  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100%;
+  width: 450px;
+  background-color: rgba(204, 204, 204, 0.555);
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px;
+  box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.192);
+}
+.submitbtn {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 7px;
+}
+.inputcomment {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 370px;
+  border-radius: 10px 0 0 10px;
+  background-color: rgba(255, 255, 255, 0.788);
+  padding-left: 20px;
+}
